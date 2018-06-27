@@ -1,0 +1,49 @@
+@import url(./Reset.css);
+.wrapper {
+    max-width: 1024px;
+    display: flex;
+}
+
+.header {
+    background-color: #F08A5D;
+    display: flex;
+    justify-content: center;
+    .wrapper {
+        flex: 1 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    img {
+        max-width: 64px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    .logo-text {
+        padding-left: 10px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+}
+
+.menu {
+    ul {
+        display: flex;
+        li {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            a {
+                color: white;
+                text-decoration: none;
+                border-radius: 8px;
+                text-transform: uppercase;
+                padding: 10px;
+            }
+        }
+    }
+}
