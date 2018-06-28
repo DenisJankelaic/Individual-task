@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import { Postsdata } from "../src/postsdata";
-import { Post } from "../src/post";
+import { Postsdata } from "./src/postsdata";
+import { Post } from "./src/post";
 
 import "../posts-styles.css";
 
@@ -26,8 +26,10 @@ export class MainPost extends React.Component<{}, State>  {
     public render(): JSX.Element {
         return (
                 <div className="main-post">
-                            <h2> {this.state.singlePost != null ? this.state.singlePost.Post_title : ""} </h2>
-                            <p>  {this.state.singlePost != null ? this.state.singlePost.Post_descriptiontwo : ""} </p>
+                            <div className="article">
+                            {this.state.singlePost != null ? this.state.singlePost.Post_title : ""} </div>
+                            <div className="article-desc">
+                            {this.state.singlePost != null ? this.state.singlePost.Post_descriptiontwo : ""} </div>
                             <button>Read More</button>
                         </div>
         );

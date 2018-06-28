@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import { MainPost } from "./components/main-post";
-import { SidePost } from "./components/side-posts";
+import { MainPost } from "./main-post";
+import { SidePost } from "./side-posts";
 import { Postsdata } from "./src/postsdata";
 import { Post } from "./src/post";
 
@@ -33,7 +33,7 @@ export class PostsView extends React.Component<{}, State>  {
                     <div className="wrapper">
                         <MainPost />
                         <div className="side-posts">
-                            <h2>Checkout more stories</h2>
+                            <div className="article">Checkout more stories</div>
                             <SidePost />
                         </div>
                     </div>

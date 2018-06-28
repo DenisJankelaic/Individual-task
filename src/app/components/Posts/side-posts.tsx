@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import { Postsdata } from "../src/postsdata";
-import { Post } from "../src/post";
+import { Postsdata } from "./src/postsdata";
+import { Post } from "./src/post";
 
 import "../posts-styles.css";
 
