@@ -1,8 +1,8 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import "./banner-styles/banner-styles.css";
 
-export class MyBanner extends React.Component {
+import "./banner-styles.css";
+
+export class BannerView extends React.Component {
     public render(): JSX.Element {
         return (
             <div className="banner-img">

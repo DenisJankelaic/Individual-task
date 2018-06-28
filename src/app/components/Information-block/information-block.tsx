@@ -1,11 +1,7 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import "./Information-block-styles/information-block-style.css";
+import "./information-block-style.css";
 
-export class MyInfoBlock extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    // }
+export class InfoBlockView extends React.Component {
 
     public render(): JSX.Element {
         return (

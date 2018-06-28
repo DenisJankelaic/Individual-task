@@ -1,8 +1,7 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import "./header-styles/header-styles.css";
+import "./header-styles.css";
 
-export class MyHeader extends React.Component {
+export class HeaderView extends React.Component {
 
     public render(): JSX.Element {
         return (
@@ -37,4 +36,3 @@ export class MyHeader extends React.Component {
         );
     }
 }
-ReactDOM.render(<MyHeader />, document.getElementById("app-root"));
