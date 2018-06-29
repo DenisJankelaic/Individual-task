@@ -12,13 +12,13 @@ import "./components/Index-styles/index-styles.css";
 class App extends React.Component {
     public render(): JSX.Element {
         return (
-                <div className="mainPage">
-                    <HeaderView />
-                    <BannerView />
-                    <InfoBlockView />
-                    <PostsView />
-                    <FooterView />
-                </div>
+            <div className="mainPage">
+                <HeaderView />
+                <BannerView />
+                <InfoBlockView />
+                <PostsView />
+                <FooterView />
+            </div>
         );
     }
 

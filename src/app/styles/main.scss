@@ -11,7 +11,6 @@ html {
     min-width: 320px;
 }
 
-
 html,
 body,
 .app-root,
@@ -22,13 +21,12 @@ body,
     flex-direction: column;
     overflow: none;
     min-height: 100vh;
-
     word-spacing: 0.05rem;
     line-height: 1.25rem;
 }
-.mainPage{
+
+.mainPage {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-

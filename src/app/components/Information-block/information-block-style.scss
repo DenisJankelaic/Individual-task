@@ -30,26 +30,26 @@
             flex-direction: column;
             justify-content: space-evenly;
             @media only screen and (max-width: 768px) {
-            align-content: center;
+                align-content: center;
             }
             @media only screen and (max-width: 768px) {
-            .info-pic {
-                display: flex;
-                justify-content: center;
-                padding-bottom: 5px;
-                img {
-                    max-width: 50%;
-                    align-self: center;
+                .info-pic {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 5px;
+                    img {
+                        max-width: 50%;
+                        align-self: center;
+                    }
                 }
             }
-        }
             .fact {
                 .fact-title {
                     font-size: 14px;
                     color: orange;
                     padding-bottom: 5px;
                     @media only screen and (max-width: 768px) {
-                    text-align: center;
+                        text-align: center;
                     }
                 }
                 .fact-desc {
@@ -58,7 +58,7 @@
                     color: white;
                     padding-bottom: 10px;
                     @media only screen and (max-width: 768px) {
-                    text-align: center;
+                        text-align: center;
                     }
                 }
             }
@@ -68,4 +68,3 @@
         }
     }
 }
-
